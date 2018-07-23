@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Title of your feature" skipped="0" tests="1" time="125.11" timestamp="2018-07-23 10:32:25"><testcase name="Prueba 5 Facebook Con Gradle"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+org.apache.poi.poifs.nio.ByteArrayBackedDataSource.copyTo(ByteArrayBackedDataSource.java:86)&#13;
+org.apache.poi.poifs.filesystem.NPOIFSFileSystem.writeFilesystem(NPOIFSFileSystem.java:805)&#13;
+org.apache.poi.hssf.usermodel.HSSFWorkbook.write(HSSFWorkbook.java:1440)&#13;
+co.com.accenture.Facebook.gradle.util.ExcelManager.saveChanges(ExcelManager.java:73)&#13;
+co.com.accenture.Facebook.gradle.stepdefinition.FacebookSearchStepDefinitions.buscarPersona(FacebookSearchStepDefinitions.java:115)&#13;
+✽.El usuario busca las personas de la lista e ingresa a su perfil(src.test.resources/features/Facebook.feature:9)&#13;
+</system-err></testcase></testsuite>
