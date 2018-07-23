@@ -8,8 +8,8 @@ public class Usuario {
 	
 	public Usuario() {
 		// TODO Auto-generated constructor stub
-		usuario = "3508650075";
-		pass = "Dfc25f9...dextroyeer.danny"; // Oculto la clave 
+		usuario = "";
+		pass = ""; // Oculto la clave 
 	}
 	public String getUsuario() {
 		return usuario;
